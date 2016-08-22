@@ -1,0 +1,56 @@
+/*
+* Title....: Template www.teresavaquero.com
+* Author...: Esteban Vaquero C
+* Contact..: esteban.xfce@gmail.com
+* Date.....: 14-08-2016
+*/
+
+
+/* Table of contents
+--------------------------------------------------
+- Base styles
+- Body
+- Links
+*/
+
+
+}
+
+
+/* Base styles
+-------------------------------------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Body
+-------------------------------------------------- */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #545454;
+    margin: 0;
+    padding: 0;
+}
+
+body p {
+    font-family: 'Raleway', sans-serif;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+
+/* Links
+-------------------------------------------------- */
+
+a, a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: #222222;
+}

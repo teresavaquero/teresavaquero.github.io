@@ -1,0 +1,237 @@
+/*
+*
+* Simple Gallery 1.0
+*     - Re-designed for Pure compatibility
+* Copyright Esteban Vaquero C
+* 03-30-2016
+*
+*/
+
+
+/* Table of contents
+--------------------------------------------------
+- Module
+- Theme
+- Layout
+- Grid
+*/
+
+
+/* Module
+-------------------------------------------------- */
+
+.s-gallery {
+    line-height: 0;
+}
+
+.s-gallery .s-gallery-link, 
+.s-gallery .s-gallery-link:link, 
+.s-gallery .s-gallery-link:hover, 
+.s-gallery .s-gallery-link:visited, 
+.s-gallery .s-gallery-link:active {
+    text-decoration: none;
+}
+
+.s-gallery .s-gallery-box {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0;
+    padding: 0;
+}
+
+.s-gallery .s-gallery-box .s-gallery-img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+/* Theme
+--------------------------------------------------*/
+
+.s-gallery .s-gallery-link:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+
+
+/* Layout
+--------------------------------------------------*/
+
+.s-gallery-l-1 {
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+}
+
+.s-gallery-l-2 {
+    -webkit-column-gap: 0.5em;
+    -moz-column-gap: 0.5em;
+    column-gap: 0.5em;
+}
+
+.s-gallery-l-2 .s-gallery-box {
+    margin-bottom: 0.5em;
+}
+
+
+/* Grid
+--------------------------------------------------*/
+
+.s-gallery-g-5 {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+}
+
+.s-gallery-g-4 {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+.s-gallery-g-3 {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.s-gallery-g-2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.s-gallery-g-1 {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+
+
+/* 1280px */
+
+@media (max-width: 80em) {
+    .s-gallery-g-xl-5 {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+    .s-gallery-g-xl-4 {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+    .s-gallery-g-xl-3 {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+    .s-gallery-g-xl-2 {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    .s-gallery-g-xl-1 {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
+/* 1024px */
+
+@media (max-width: 64em) {
+    .s-gallery-g-lg-5 {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+    .s-gallery-g-lg-4 {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+    .s-gallery-g-lg-3 {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+    .s-gallery-g-lg-2 {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    .s-gallery-g-lg-1 {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
+/* 768px */
+
+@media (max-width: 48em) {
+    .s-gallery-g-md-5 {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+    .s-gallery-g-md-4 {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+    .s-gallery-g-md-3 {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+    .s-gallery-g-md-2 {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    .s-gallery-g-md-1 {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
+/* 568px */
+
+@media (max-width: 35.5em) {
+    .s-gallery-g-sm-5 {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+    .s-gallery-g-sm-4 {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+    .s-gallery-g-sm-3 {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+    .s-gallery-g-sm-2 {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    .s-gallery-g-sm-1 {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}

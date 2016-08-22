@@ -1,0 +1,65 @@
+/*
+* Title....: Template www.teresavaquero.com
+* Author...: Esteban Vaquero C
+* Contact..: esteban.xfce@gmail.com
+* Date.....: 14-08-2016
+*/
+
+
+/* Table of contents
+--------------------------------------------------
+- Base layout
+- Responsive
+*/
+
+
+/* Base layout
+-------------------------------------------------- */
+
+#layout {
+    padding: 0;
+    margin: 0;
+}
+
+.l-padding {
+    padding: 1em;
+}
+
+#sidebar {
+    overflow-y: auto;
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.75em;
+    background: #222222;
+    color: #EBEBEB;
+    margin-top: 3em;
+}
+
+#footer a {
+    color: #EBEBEB;
+}
+
+
+/* Responsive
+-------------------------------------------------- */
+
+
+/*@media (min-width: 48em) {
+    #content {
+        background: url('../images/bg-abstract.jpg');
+        background-repeat: repeat-y;
+    }
+}
+
+@media (min-width: 64em) {
+        #sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+    #content {
+        margin-left: 33.33%;
+    }
+}*/
