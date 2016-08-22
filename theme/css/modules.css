@@ -66,9 +66,7 @@
     line-height: 3em;
     display: block;
     background: #F3F3F3;
-    padding: 1.2em;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    padding: 1em;
 }
 
 .horizontal-menu .horizontal-menu-list {
@@ -81,11 +79,8 @@
 .horizontal-menu .horizontal-menu-list .horizontal-menu-item {}
 
 .horizontal-menu .horizontal-menu-list .horizontal-menu-item .horizontal-menu-link {
-    display: inline-block;
-    float: left;
-    border: 0.2em solid #A2A2A2;
-    padding: 1.2em;
-    margin: 0.6em;
+    display: block;
+    padding: 1em;
 }
 
 .horizontal-menu .horizontal-menu-list .horizontal-menu-item .horizontal-menu-link:hover {
