@@ -25,9 +25,7 @@
     padding: 1em;
 }
 
-#sidebar   {
-    overflow-y: auto;
-}
+#sidebar {}
 
 #footer {
     text-align: center;
